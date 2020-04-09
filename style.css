@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.header{
+    background-color: #25333D;
+    height: 3rem;
+    position: relative;
+    opacity: 10;
+   
+}
+.header_text{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    margin: 0;
+    opacity: 4;
+
+}
+.header_main{
+    background-color: #FFFFFF;
+    height: 5.2rem;
+    color: #28333C;
+    position: relative;
+}
+.header_bold{
+    position: absolute;
+    font-size: 1.8rem;
+    top: 15px;
+    left: 30px;
+    transition: .2s;
+    font-family: 'Monoton', cursive;
+    height: 2vh;
+}
+.header_logo{
+    transition: all .3s;
+}
+.header_logo:hover{
+    transform: scale(1.2);
+    text-shadow: 2px 2px 2px grey;
+}
+.header_bold:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 2rem;
+}
+
+
+.header_links{
+    text-decoration: none;
+    float:right;
+    padding: 1.7rem 1rem 0;
+    color: #28333C;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: .2s;
+}
+.header_links:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 2px 2px 2px gray;
+   
+}
+.top{
+    position: relative;
+    background-image: linear-gradient(to right bottom, rgba(0%, 0%, 0%, 0%), rgba(0%, 0%, 0%, 0%)), url(home.png);
+    height: 140vh;
+    opacity: 1;  
+}
+.main_text1{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+    width: 90%;
+}
+.btn1{
+    font-size: 20px;
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+}
+.icon1{
+    position: relative;
+    top: 13rem;
+    width: 8rem;
+    left: -7.5rem;
+    transition: .3s;
+
+}
+
+.icon1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    opacity: 1;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 2rem;
+    
+}
+.icon2{
+    position: relative;
+    top: 13rem;
+    width: 8rem;
+    left: 4rem;
+    transition: .3s;
+
+}
+.icon2:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    opacity: 1;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 2rem;
+    
+}
+.mainbg{
+    width: 95%;
+    height: 68vh;
+    position: relative;
+    left: 2rem;
+    top: -15rem;
+    background-image: linear-gradient(to right bottom, rgba(0%, 0%, 0%, 0%), rgba(0%, 0%, 0%, 0%)), url(cloud.jpeg);
+    opacity: 1;
+    transition: .9s;
+}
+.mainbg:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: .7;
+}
+.heading_clouds{
+    position: absolute;
+    top: 6rem;
+    font-weight: 350;
+    width: 30rem;
+    left: 5rem;
+    letter-spacing: 5px;
+    
+}
+.paragraph_clouds{
+    position: absolute;
+    top: 13rem;
+    font-weight: 350;
+    width: 34rem;
+    left: 5rem;
+    letter-spacing: 3px;
+}
+.btn2{
+    top: 18rem;
+    left: 5rem;
+    position: absolute;
+}
+.container{
+    position: relative;
+    top: -12rem;
+    left: 1rem;
+    font-size: 1rem;
+    
+}
+.internal{
+    font-weight: 400;
+}
+.col1{
+    letter-spacing: 3px;
+    font-weight: 400;
+    transition: .2s;
+    font-size: 2rem;
+    
+}
+.col1:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 3px 2px 2px gray;
+}
+.col2{
+    position: relative;
+    color: rgb(39, 106, 161);
+    font-weight: 400;
+    transition: .2s;
+    
+}
+.col2:hover{
+    font-size: 1.3rem;
+}
+.emoji{
+    transition: .2s;
+    
+}
+.emoji:hover{
+    font-size: 3rem;
+}
+.cars_section{
+    text-align: center;
+}
+.logos{
+    position: relative;
+    
+    top: -55rem;
+    text-align: center;
+}
+.logos_img{
+    width: 6rem;
+    transition: .3s;
+}
+.logos_img:hover{
+    transform:  scale(1.5);
+    z-index: 2;
+    opacity: 1;
+    text-shadow: 5px 2px 2px gray;
+}
+.cars-btn{
+    position: relative;
+    top: -63rem;
+
+}
+.cars_logo{
+    position: relative;
+    background-color: #f5f5f5;
+    height: 190vh;
+    top: -8rem;
+}
+.cont2{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.cont3{
+    padding-bottom: 4rem;
+}
+.cont4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.cont5{
+    padding-bottom: 4rem;
+}
+.cars_heading{
+    position: relative;
+    top: 3rem;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Fredericka the Great', cursive;
+}
+.percentage{
+    position: relative;
+    top: -50rem;
+    text-align: center;
+}
+.percentage_heading{
+    padding-bottom: 4rem;
+    font-weight: 350;
+    letter-spacing: 3px;
+    font-size: 2.3rem;
+    font-family: 'Frijole', cursive;
+}
+.percent_numbers{
+    position: relative;
+    color: #00C1D5;
+    font-size: 6rem;
+    font-weight: 400;
+    padding: 0rem !important;
+    right: 2rem;
+    transition: all.10s;
+}
+
+.percent_text{
+    position: absolute;
+    width: 13rem;
+    color: #61717D;
+    left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 0%;
+}
+.detail_img{
+    position: relative;
+    top: -25rem;
+}
+.detail_heading{
+    font-size: 2rem;
+    font-weight: 350;
+    width: 30rem;
+    letter-spacing: 5px;
+    padding-bottom: 2rem;
+}
+.detail_paragraph{
+    color: #61717D;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 28rem;
+    padding-bottom: 2rem;
+}
+.logo_imges{
+    
+    width: 14rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all .3s;
+}
+.logo_imges:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 4px 2px 2px gray;
+}
+.right_img{
+    transition: all .3s;
+}
+.right_img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: 1;
+    text-shadow: 5px 2px 2px gray;
+    border-radius: 20px;
+}
+.logo_imges1{
+    width: 3rem;
+    transition: all .2s;
+}
+.logo_imges1:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 4px 2px 2px gray;
+}
+.left_img{
+    transition: all .3s;
+}
+.left_img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: 1;
+    text-shadow: 5px 2px 2px gray;
+    border-radius: 20px;
+}
+.percentage2{
+    position: relative;
+    top: -12rem;
+}
+.col_end{
+    top: 2rem;
+    left: 5rem;
+    
+
+}
+.platforms{
+    font-weight: 350;
+    font-size: 2.3rem;
+    width: 20rem;
+    padding-bottom: 3rem;
+}
+.img4{
+    width: 12rem;
+    padding-top: 2rem;
+    transition: all .2s; 
+}
+.img4:hover{
+        transform:  scale(1.3);
+        z-index: 2;
+        opacity: 1;
+        text-shadow: 5px 2px 2px gray;
+    
+    
+}
+.img5{
+    width: 12rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    transition: all .2s;
+}
+.img5:hover{
+    transform:  scale(1.5);
+    z-index: 2;
+    opacity: 1;
+    text-shadow: 5px 2px 2px gray;
+
+
+}
+.btn5{
+    position: relative;
+    top: 5rem;
+}
+.fotter_links{
+    position: relative;
+    top: -15rem;
+    text-align: center;
+}
+.developers_header{
+    font-weight: 350;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-bottom: 5rem;
+    font-family: 'Satisfy', cursive;
+    transition: all .3s;
+}
+.developers_header:hover{
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px grey;
+}
+.col_btn{
+    position: relative;
+    width: 20rem;
+    padding: 0;
+}
+.main_footer{
+    height: 60vh;
+    background-color: #1B2A32;
+    position: relative;
+    
+}
+.container_footer{
+    position: relative;
+    top: 3rem;
+    color: white;
+    left: 2rem;
+}
+.news_links{
+    font-weight: 100;
+    position: relative;
+    left: 4rem;
+    transition:all .2s;
+}
+.news_links:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 2px 2px 2px gray;
+}
+.stg1{
+    position: relative;
+    left: 7rem;
+    font-weight: 100;
+    
+}
+.stg2{
+    
+        position: relative;
+        left: 7.4rem;
+        font-weight: 100;
+    
+}
+.stg3{
+    position: relative;
+    left: 6.9rem;
+    font-weight: 100;
+}
+.stg4{
+    position: relative;
+    left: 7rem;
+    font-weight: 100;
+}
+.stg5{
+    position: relative;
+    left: 4.3rem;
+    font-weight: 100;
+}
+.news_img{
+    width: 2rem;
+}
+.news_header{
+    color: #00C1D5;
+    margin: 0;
+}
+.news_align{
+    position: relative;
+    left: 3.5rem;
+    top: -5rem;
+}
+.line{
+    background-color:rgba(50, 88, 109, 0.658) ;
+    position: relative;
+    top: 2.5rem;
+    width: 80%;
+    left: 7rem;
+}
+#footer{
+    position: relative;
+    color: #798893;
+    text-align: center;
+    top: 2rem;
+}
+.social-icon{
+    margin: 10px 15px;
+    transition: all .2s;
+}
+.social-icon:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    opacity: .9;
+    text-shadow: 2px 2px 2px gray;
+}
+.error-div{
+
+    overflow-x: hidden !important;
+    opacity: 0;
+    z-index: 0;
+}
+
